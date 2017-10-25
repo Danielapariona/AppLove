@@ -27,7 +27,6 @@ img {
   margin-right: auto;
   margin-left: auto;
   padding: 0 14px;
-  outline: 1px solid red;
 }
 
 .container:before, .container:after {
@@ -160,4 +159,20 @@ section {
 
 .section__work {
   text-align: center;
+}
+
+.product {
+  height: 250px;
+  width: 300px;
+  display: inline-block;
+  margin: 40px 30px;
+}
+
+.product img {
+      height: 100%;
+    width: 100%;
+}
+
+.product img ~ p {
+  font-weight: 700;
 }
