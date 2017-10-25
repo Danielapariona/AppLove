@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -25,8 +26,8 @@ img {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 0 14px;
+  outline: 1px solid red;
 }
 
 .container:before, .container:after {
@@ -70,4 +71,29 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header {
+  outline: 1px solid green;
+  display: block;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+}
 
+
+.header__navigation {
+  padding: 15px;
+}
+
+.header__logo {
+  width: 70px;
+  height: 70px;
+  float: right;
+}
+.header__navigation a{
+  position: relative;
+  top: 20px;
+  padding-right: 35px;
+  font-weight: 700;
+  cursor: pointer;
+}
