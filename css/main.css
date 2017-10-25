@@ -102,19 +102,20 @@ header {
 }
 
 section {
-
+  padding: 40px;
 }
 .section__header {
   /*position: relative;
   top: 100px;*/
   background-image: url(../assets/images/bg-home.jpg);
-
 }
 
+.section__header h2 {
+  font-size: 1.5em;
+}
 .section__header .container {
   height: 100%;
-  padding: 80px;
-  /*background-image: url(../assets/images/bg-home.jpg);*/
+  padding: 20px;
 }
 
 .background-image {
@@ -137,4 +138,22 @@ section {
   display: block;
   color: #fff;
   cursor: pointer;
+}
+
+.section__services {
+  background-color: rgb(241, 124, 114);
+}
+
+.section__subtitle {
+  font-size: 2.5em;
+}
+
+.services__product img {
+  width: 200px;
+  height: 200px;
+}
+
+.services__product {
+  display: inline-block;
+  margin: 50px 80px;
 }
